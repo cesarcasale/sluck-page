@@ -1,0 +1,110 @@
+main{
+    width: 100%;
+    height: 290vh;
+    background-color: #F4EDE4;
+    display: flex;
+    flex-direction: column;
+    
+}
+.section-main-logobox{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+    gap: 10px;
+    align-items: center;
+    & p {
+        font-size: 15px;
+        color: black;
+        margin-bottom: 5px;
+    }
+    
+}
+.section-main-logobox-img{
+    width: 96px;
+    height: 54px;
+    object-fit: contain;     
+
+}
+
+.section-main-card{
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    &-img{
+        object-fit: contain;
+    }
+    & p {
+        text-align: left;
+    }
+}
+h6{
+    color: black;
+}
+span{
+    color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: #1264A3;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+.section-main-card2{
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+    
+    &-img{
+        object-fit: contain;
+    }
+}
+.section-main-card3{
+    width: 100%;
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    &-img{
+        object-fit: contain;
+    }
+}
+.section-main-text{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 15px;
+    gap: 20px;
+    & h3 {
+        font-size: 30px;
+    }
+    & p{
+        font-size: 18px;
+        color: black;
+        text-align: left;
+    }
+}
+    
+.colornegro{
+    color: black;
+}
+.colorblanco{
+    color:white
+}
+h4{
+    font-size: 15px;
+    text-align: center;
+}

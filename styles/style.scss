@@ -1,0 +1,19 @@
+
+@import "./base/reset";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;900&display=swap');
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+@import "./blocks/header";
+@import "./blocks/main";
+@import "./blocks/sectionArticle";
+@import "./utility/botones";
+@import "./blocks/footer";
+
+
+
+
